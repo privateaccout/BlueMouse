@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="Left"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:id="@+id/left_button" />
+
+        <Button
+            android:text="Mid"
+            android:layout_width="165dp"
+            android:layout_height="84dp"
+            android:id="@+id/mid_button" />
+
+        <Button
+            android:text="Right"
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:id="@+id/right_button" />
+    </LinearLayout>
+
+
+    <com.bluemouse.kid.bluemouse.TouchView
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:id="@+id/my"
+        android:background="#333333"
+        />
+</LinearLayout>

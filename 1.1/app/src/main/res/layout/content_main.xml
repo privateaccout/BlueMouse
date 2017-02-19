@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/colorMain"
+    tools:context="com.bluemouse.kid.bluemouse.MainActivity"
+
+    android:orientation="vertical">
+
+
+    <Button
+        android:text="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text" />
+    <Button
+        android:text="image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image" />
+    <Button
+        android:text="upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upload" />
+
+    <ListView
+        android:id="@+id/ChatView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
